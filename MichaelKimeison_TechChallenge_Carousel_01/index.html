@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+
+    <title>Car Show</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="carousel-container">
+        <!-- gambarnya -->
+        <div class="carousel">
+          <img src="CarImages/Benz Couper.jpg" alt="Benz Couper" />
+          <img src="CarImages/Ferarari 458 - Jesse GC.jpg" alt="Ferrari 458" />
+          <img src="CarImages/Gold Couper.jpg" alt="Gold Couper" />
+          <img
+            src="CarImages/Lamborghini Aventador - Marc Kleen.jpg"
+            alt="Lamborghini Aventador"
+          />
+        </div>
+
+        <!-- tombol next dan previous -->
+        <button class="carousel-btn prev">&#10094;</button>
+        <button class="carousel-btn next">&#10095;</button>
+
+        <!-- dot -->
+        <div class="dots">
+          <span class="dot active" data-index="0"></span>
+          <span class="dot" data-index="1"></span>
+          <span class="dot" data-index="2"></span>
+          <span class="dot" data-index="3"></span>
+        </div>
+      </div>
+      <p class="imageCaptionP">Benz Couper</p>
+    </div>
+  </body>
+</html>
